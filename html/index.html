@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encreiptador de texto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <di class="content_img">
+            <img src="../img/Logo.png" alt="logo de la pagina web">
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <input class="input_text" type="text"  id="texto">
+            <p class="text">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                Solo letras minúsculas y sin acentos
+            </p>
+            <div class="content_btn">
+                <button id="btn_encriptar">Encriptar</button>
+                <button id="btn_desencriptar">Desencriptar</button>
+            </div>
+            </section>
+
+            <section class="container_preview_text">
+                <p id="view_text">
+                </p>
+                <div id="dinamic_off">
+                    <div class="content_personaje_img">
+                        <img src="../img/Imagen.png" alt="muñeco sentado">
+                    </div>
+                    <h3>
+                        Ningún mensaje fue encontrado
+                    </h3>
+                    <p class="text">
+                        Ingresa el texto que desees encriptar o desencriptar.
+                    </p>
+                </div>
+            </section>
+    </main>
+
+    <script src="../js/app.js"></script>
+    
+</body>
+</html>
